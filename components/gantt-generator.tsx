@@ -40,12 +40,12 @@ export default function GanttGenerator({ onBack }: GanttGeneratorProps) {
   const [isGenerating, setIsGenerating] = useState(false)
   const [generatedGantt, setGeneratedGantt] = useState<GeneratedGantt | null>(null)
   const [formData, setFormData] = useState({
-    projectName: "",
-    projectType: "",
-    scope: "",
-    duration: "",
-    teamSize: "",
-    complexity: "",
+    projectName: "服务商品开发",
+    projectType: "research",
+    scope: "实现商品ABC的直销",
+    duration: "8",
+    teamSize: "large",
+    complexity: "low",
     constraints: "",
     deliverables: "",
   })
