@@ -360,4 +360,4 @@ export default function BurndownGenerator({ onBack }: BurndownGeneratorProps) {
       </div>
     </div>
   );
-} 
+}

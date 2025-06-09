@@ -47,4 +47,4 @@ export function TabsContent({ value, children }: { value: string; children: Reac
   if (!ctx) return null;
   if (ctx.value !== value) return null;
   return <div>{children}</div>;
-} 
+}

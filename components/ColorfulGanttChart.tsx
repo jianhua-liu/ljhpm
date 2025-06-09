@@ -98,4 +98,4 @@ export default function ColorfulGanttChart({ tasks, months = defaultMonths }: Co
       <rect x={leftPad} y={chartHeight - 20} width={monthWidth * 12} height={4} fill="#A259F7" rx={2} />
     </svg>
   );
-} 
+}

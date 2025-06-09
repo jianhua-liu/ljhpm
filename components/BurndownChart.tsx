@@ -119,4 +119,4 @@ export default function BurndownChart({ data, initialStoryPoints }: BurndownChar
       </div>
     </div>
   );
-} 
+}
