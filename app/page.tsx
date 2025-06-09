@@ -27,7 +27,7 @@ import ComingSoonPlaceholder from "@/components/coming-soon-placeholder"
 // import QualityGenerator from "@/components/quality-generator"
 // import SprintGenerator from "@/components/sprint-generator"
 import ReleaseGenerator from "@/components/release-generator"
-// import BurndownGenerator from "@/components/burndown-generator"
+import BurndownGenerator from "@/components/burndown-generator"
 // import KanbanGenerator from "@/components/kanban-generator"
 
 interface Tool {
@@ -153,8 +153,7 @@ export default function ProjectManagementHome() {
       case "release":
         return <ReleaseGenerator onBack={() => setSelectedTool(null)} />
       case "burndown":
-        // return <BurndownGenerator onBack={() => setSelectedTool(null)} />
-        return <ComingSoonPlaceholder tool="燃尽图" onBack={() => setSelectedTool(null)} />
+        return <BurndownGenerator onBack={() => setSelectedTool(null)} />
       case "kanban":
         // return <KanbanGenerator onBack={() => setSelectedTool(null)} />
         return <ComingSoonPlaceholder tool="看板管理" onBack={() => setSelectedTool(null)} />
